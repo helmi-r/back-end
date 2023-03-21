@@ -12,7 +12,7 @@ module.exports = {
       ket: {
         type: Sequelize.STRING
       },
-      UserId: {
+      PasienId: {
         type: Sequelize.INTEGER
       },
       createdAt: {

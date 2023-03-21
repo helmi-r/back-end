@@ -15,7 +15,7 @@ module.exports = (sequelize, DataTypes) => {
   }
   Survei.init({
     ket: DataTypes.STRING,
-    UserId: DataTypes.INTEGER
+    PasienId: DataTypes.INTEGER
   }, {
     sequelize,
     modelName: 'Survei',
